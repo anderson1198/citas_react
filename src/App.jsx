@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("pacientes", JSON.stringify(pacientes));
+     localStorage.setItem("pacientes", JSON.stringify(pacientes));
   }, [pacientes]);
 
   function eliminarPaciente(id) {
